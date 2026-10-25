@@ -14,7 +14,7 @@ DIR=$( dirname $WRITEFILE)
 
 if [ ! -d $DIR ]
 then
-#	echo "directory does not exist; creating directory"
+	echo "directory does not exist; creating directory"
 	mkdir -p $DIR 
 fi
 
